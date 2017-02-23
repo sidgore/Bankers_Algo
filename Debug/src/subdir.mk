@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Bankers_Algo.cpp 
+../src/bank.cpp \
+../src/main.cpp 
 
 OBJS += \
-./src/Bankers_Algo.o 
+./src/bank.o \
+./src/main.o 
 
 CPP_DEPS += \
-./src/Bankers_Algo.d 
+./src/bank.d \
+./src/main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
